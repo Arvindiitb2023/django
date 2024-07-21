@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+   <nav >
+        <a href="{% url 'home' %}">Home</a>
+     <a href="{% url 'profile' %}">Profile</a>
+        <a href="{% url 'logout' %}">Logout</a>
+    </nav>
+  <div class="container">
+    <main>
+       <h2>Profile Page</h2>
+    <p>Welcome to the Profile page!</p>
+    </main>
+
+  </div>
+{% endblock %}
